@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--	<link rel="stylesheet" href="css/isotope.css" type="text/css" />-->
+	<link rel="stylesheet" href="css/webticker.css" type="text/css" />
+	<link rel="stylesheet" href="style2.css" type="text/css" />
+<!--	<link rel="stylesheet" href="jquery.simplyscroll.css" type="text/css" />-->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<!--	<script src="js/jquery.simplyscroll.min.js" type="text/javascript"></script>-->
+	<script src="js/jquery.montage.min.js" type="text/javascript"></script>
+	<script src="js/jquery.webticker.js" type="text/javascript"></script>
+<!--	<script type="text/javascript">
+	$(function(){
+//		
+//		$('#am-container').isotope({
+//		   options
+//		  resizable: false,
+//		  itemSelector : '.item',
+//		  masonry: {
+//		      columnWidth: 60,
+//		      gutterWidth: 10
+//		    }
+//		});
+	
+
+	});
+	</script>-->
+	<script type="text/javascript">
+	$(function() {
+			$("#container").webTicker();
+		
+			var $container 	= $('#container'),
+			$imgs		= $container.find('img').hide(),
+			totalImgs	= $imgs.length,
+			cnt			= 0;
+		
+		$imgs.each(function(i) {
+			var $img	= $(this);
+			$('<img/>').load(function() {
+				++cnt;
+				if( cnt === totalImgs ) {
+					$imgs.show();
+					$container.montage({
+						fillLastRow				: false,
+						alternateHeight			: true,
+						alternateHeightRange	: {
+							min	: 150,
+							max	: 340
+						}
+					});
+				}
+			}).attr('src',$img.attr('src'));
+		});	
+		
+	});
+	</script>
+	<script>
+	  $(function(){
+//		$("#container").webTicker();
+//	    $('#container').masonry({
+//	      itemSelector: '.box',
+//	      isResizable: false,
+//	      columnWidth: 10,
+//	      isFitWidth: true
+//	    });
+//	    
+	  });
+	</script>
+<!--	<script type="text/javascript">
+	(function($) {
+		$(function() {
+			$("#container").simplyScroll({pauseOnHover: true});
+		});
+	})(jQuery);
+	</script>-->
+</head>
+<body>
+
+	<ul id="container">	
+		<li class="box"><a href="#"><img src="http://placehold.it/350x130/ffffff/000000"></img></a></li>
+		<li class="box"><a href="#"><img src="http://placehold.it/150x120/666666/000000"></img></a></li>			 
+		<li class="box"><a href="#"><img src="http://placehold.it/350x110/b60101/000000"></img></a></li>				 
+		<li class="box"><a href="#"><img src="http://placehold.it/150x150/a3d41e/000000"></img></a></li> 
+		<li class="box"><a href="#"><img src="http://placehold.it/130x180/148edb/000000"></img></a></li>
+		<li class="box"><a href="#"><img src="http://placehold.it/150x150/9842e8/000000"></img></a></li>
+		<li class="box"><a href="#"><img src="http://placehold.it/350x190/eaa33d/000000"></img></a></li>
+		<li class="box"><a href="#"><img src="http://placehold.it/350x130/e8e129/000000"></img></a></li>
+		<li class="box"><a href="#"><img src="http://placehold.it/100x150/99f5ed/000000"></img></a></li>	
+		<li class="box"><a href="#"><img src="http://placehold.it/350x250/e3e3e3/000000"></img></a></li>	
+		<li class="box"><a href="#"><img src="http://placehold.it/150x150/9842e8/000000"></img></a></li>
+		<li class="box"><a href="#"><img src="http://placehold.it/350x190/eaa33d/000000"></img></a></li>
+		<li class="box"><a href="#"><img src="http://placehold.it/350x130/e8e129/000000"></img></a></li>
+		<li class="box"><a href="#"><img src="http://placehold.it/100x150/99f5ed/000000"></img></a></li>				
+	</ul>
+
+</body>
+</html>

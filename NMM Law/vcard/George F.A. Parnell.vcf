@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Parnell;George;F.A.;;Esq.
+FN: George F.A. Parnell Esq.
+ORG:Norris McLaughlin & Marcus, P.A.
+TITLE:Partner
+TEL;WORK;VOICE:(212) 808-0700
+TEL;CELL;VOICE:(917) 369-8840
+TEL;WORK;FAX:(212) 808-0844
+ADR;WORK:;Norris McLaughlin & Marcus, P.A.;875 Third Avenue, 8th Floor;;New York;NY;10022
+EMAIL;INTERNET:gfaparnell@nmmlaw.com
+END:VCARD

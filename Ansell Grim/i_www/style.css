@@ -1,0 +1,278 @@
+/******* FONTS *******/
+
+@font-face {
+    font-family: 'HypatiaSansProRegular';
+    src: url('font/hypatiasanspro-regular-webfont.eot');
+    src: url('font/hypatiasanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/hypatiasanspro-regular-webfont.woff') format('woff'),
+         url('font/hypatiasanspro-regular-webfont.ttf') format('truetype'),
+         url('font/hypatiasanspro-regular-webfont.svg#HypatiaSansProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'HypatiaSansProSemibold';
+    src: url('font/hypatiasanspro-semibold-webfont.eot');
+    src: url('font/hypatiasanspro-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/hypatiasanspro-semibold-webfont.woff') format('woff'),
+         url('font/hypatiasanspro-semibold-webfont.ttf') format('truetype'),
+         url('font/hypatiasanspro-semibold-webfont.svg#HypatiaSansProSemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: HypatiaSansProRegular, Helvetica, Arial;
+	color: #58585a;
+}
+.container {
+	margin-top: 25px;
+}
+
+.margless {
+	margin: 0 !important;
+}
+
+.clear {
+	clear: both;
+}
+
+/******* MAIN STYLES *******/
+
+a:link {
+	color: #00395a;
+}
+
+a:hover {
+	color: #00395a;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #3893bc;
+}
+
+/******* HEADINGS *******/
+
+h1 {
+	font-size: 24px;
+	font-family: HypatiaSansProRegular, Helvetica, Arial;
+	color: #00395a;
+	font-weight: normal;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+	h1.top {
+		margin-top: 0px;
+	}
+
+h2 {
+	font-size: 20px;
+	font-family: HypatiaSansProRegular, Helvetica, Arial;
+	color: #00395a;
+	font-weight: normal;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+
+h3 {
+	font-size: 16px;
+	font-family: HypatiaSansProRegular, Helvetica, Arial;
+	color: #00395a;
+	font-weight: normal;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+/******* BUTTONS *******/
+.readmoreButton {
+	font-size: 15px;
+	font-family: HypatiaSansProRegular, Helvetica, Arial;
+	color: #0578aa;
+	text-align: left;
+	background-image: url(images/buttonbg.png);
+	height: 19px;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	width: 80px;
+}
+	.readmoreButton a:hover {
+		color: #00395a;
+		text-decoration: none;
+	}
+.blueButton {
+	font-size: 16px;
+	font-family: HypatiaSansProRegular, Helvetica, Arial;
+	color: #fff;
+	text-align: center;
+	background-image: url(images/bluebuttonbg.jpg);
+	height: 37px;
+	width: 110px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.blueButton:hover {
+	background-image: url(images/bluebuttonbg_over.jpg);
+}
+
+.blueButton a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+
+/******* HEADER *******/
+nav.headerNav {
+	font-size: 11px;
+	text-align: left;
+	font-family: HypatiaSansProSemibold, Helvetica, Arial;
+	color: #58585a;
+	display: inline;
+}
+	nav.headerNav ul {
+		margin: 0;
+		display: inline;
+		margin-right: 5px;
+	}
+	nav.headerNav li {
+		list-style: none;
+		display: inline;
+	}
+	nav.headerNav a {
+		color: #000;
+	}
+	.headerRight {
+		text-align:right;
+	}
+	.headerRight img {
+		vertical-align: baseline;
+	}
+	
+.mainNav {
+	background: url(images/mainnavbg.jpg);
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	margin-top: 15px;
+}
+	nav.mainNav ul {
+		margin: 0;
+	}
+	nav.mainNav li {
+		list-style: none;
+		display: inline-block;
+		font-size: 18px;
+		padding-left: 45px;
+		padding-right: 45px;
+		font-family: HypatiaSansProRegular, Helvetica, Arial;
+		vertical-align: middle;
+		border-right: 1px solid #266388;
+	}
+	nav.mainNav a {
+		color: #fff;
+	}
+		nav.mainNav a:hover {
+			text-decoration: none;
+			color: #b0cada;
+		}
+	nav.mainNav li:first-of-type {
+		padding-left: 0px;
+	}
+	nav.mainNav li:last-of-type {
+		padding-right: 0px;
+		border-right: 0px;
+	}
+	nav.mainNav li .mainNavtext {
+		font-size: 12px;
+	}
+	p.tagline {
+		font-size: 24px;
+		text-align: center;
+		margin-top: 25px;
+		margin-bottom: 20px;
+		font-family: HypatiaSansProRegular, Helvetica, Arial;
+	}
+	
+/******* CONTENT *******/
+
+.leftContent p {
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+	font-weight: 700;
+	width: 165px;
+}
+	.leftContent .blurb {
+		margin-bottom: 15px;
+		height: 100px;
+	}
+	.leftContent .blurb img {
+		padding-right: 10px;
+	}
+	.leftContent .blurbText {
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+	.readmoreButton a {
+		display: block;
+	}
+.middleContent p {
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+}
+
+.rightContent p {
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+}
+	.rightContent {
+		margin-left: 40px;
+	}
+	
+	
+/******* SUBBPAGE *******/
+
+.content {
+	padding-top: 35px;
+	padding-bottom: 100px;
+}
+	.content p {
+		font-family: Arial, Helvetica;
+		font-size: 12px;
+		font-weight: 400;
+	}
+	.sidebarContent {
+		
+	}
+		.subpageFeaturedImg {
+			text-align: right;
+		}
+/******* FOOTER *******/
+footer{
+	background-color: #f5f5f5;
+	margin-top: 20px;
+}
+.footer {
+	margin: 0 auto;
+	width: 940px;
+	font-size: 12px;
+	font-family: Arial, Helvetica;
+	height: 240px;
+}
+	.footer .footerMiddle {
+		margin-left: 300px;
+	}
+	.footer .footerLeft, .footer .footerRight {
+
+	}
+	.footer .footerLeft p, .footer .footerRight p {
+		text-align: left;
+	}
+	
+	.footer .footerLeft p {
+		margin-bottom: 0;
+	}

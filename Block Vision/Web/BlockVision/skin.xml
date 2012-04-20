@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Object>
+	<Token>[NAV]</Token>
+	<Settings>
+		<Setting>
+			<Name>ProviderName</Name>
+			<Value>DNNMenuNavigationProvider</Value>
+		</Setting>
+		<Setting>
+			<Name>CSSNodeHover</Name>
+			<Value>Main_DNNMenu_NodeHover</Value>
+		</Setting>
+	</Settings>
+</Object>

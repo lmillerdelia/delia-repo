@@ -1,0 +1,10 @@
+.box {
+    background:#299BFD;
+    border:1px solid #1066A2;
+    padding:6px;
+    -webkit-box-shadow: inset 0 1px 0 #40d4fe, 0 1px 3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 0 #40d4fe, 0 1px 3px rgba(0, 0, 0, 0.6);
+    -ms-box-shadow: inset 0 1px 0 #40d4fe, 0 1px 3px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: inset 0 1px 0 #40d4fe, 0 1px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 0 #40d4fe, 0 1px 3px rgba(0, 0, 0, 0.6);
+}

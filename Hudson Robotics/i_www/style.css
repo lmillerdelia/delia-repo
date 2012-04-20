@@ -1,0 +1,510 @@
+/*
+Theme Name: Hudson Robotics
+Description: Hudson Robotics custom theme built on a minimalist WordPress template theme built with HTML 5.
+Version: 1.0
+Author: Vishal Patel
+Author URI: http://delianet.com/
+Tags: Hudson, Robotics, html5, Custom
+*/
+
+
+/* == BASICS == */
+
+header, footer, section, article, aside, nav {
+	display: block;
+	}
+/*Fonts*/
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+*/
+
+html {
+	margin: 0 auto;
+}
+
+body {
+	margin: 0 auto;
+	font-family: arial, helvetica;
+	font-size: 14px;
+	background: #fff; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#c1c1c1') no-repeat; /* for IE */
+	background: -webkit-gradient(linear, top, bottom, from(#fff), to(#c1c1c1)) no-repeat; /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #fff,  #c1c1c1) no-repeat; /* for firefox 3.6+ */ 
+	background: none;
+}
+
+.clear {
+	clear: both;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+p {
+	margin: 0;
+}
+
+/******* MAIN HEADING STYLES *******/
+h1 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 40px;
+	color: #0769b8;
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 24px;
+	color: #0769b8;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 18px;
+	color: #0769b8;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+
+h5 {
+	font-family: arial, helvetica;
+	font-size: 16px;
+	font-weight: bold;
+	color: #5a5a5a;
+	margin-top: 0;
+}
+
+/******* BUTTONS AND LINKS START *******/
+
+.greenButtonSmall {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: white;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 18px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#87CB82', endColorstr='#47AF3C'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#87CB82), to(#47AF3C)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #87CB82,  #47AF3C); /* for firefox 3.6+ */
+	border: 0px none;
+	height: 25px;
+	width: 118px;
+}
+
+.greenButtonLarge {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: white;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 32px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#87CB82', endColorstr='#47AF3C'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#87CB82), to(#47AF3C)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #87CB82,  #47AF3C); /* for firefox 3.6+ */
+	border: 0px none;
+	padding: 5px 20px;
+	margin-top: 30px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #0769b8;
+}
+
+a:active, a:visited {
+	text-decoration: none;
+	color: #007b25;
+}
+
+nav a:link, nav a:visited, nav a:active {
+	color: white;
+	text-decoration: none;
+}
+
+#footerContent a:active, #footerContent a:visited, #footerContent a:link {
+	color: white;
+	text-decoration: none;
+}
+
+#subNav a:link, #subNav a:visited {
+	color: #0769b8;
+}
+
+#subNav a:hover {
+	color: #007b25;
+}
+
+/****** HEADER START ******/
+header {
+	width: 970px;
+	padding: 0;
+	padding-top: 25px;
+	margin: 0 auto;
+	padding-bottom: 75px;
+}
+
+#headerLogo {
+	float: left;
+}
+
+/******* TOP NAV START in HEADER *******/
+
+nav {
+	height: 61px;
+	width: 648px;
+	background-image: url('images/topmenubg.png');
+	background-repeat: no-repeat;
+	float: right;
+}
+nav li {
+	display: inline;
+}
+
+nav li a {
+	margin-top: -35px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+nav ul li {
+	font-family: arial, helvetica;
+	text-transform: uppercase;
+	color: white;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.separator {
+	padding: 13px;
+}
+
+.menu-main-nav-menu-container {
+	text-align: center;
+}
+
+/******* CONTENT START *******/
+#featured {
+	margin: 0 auto;
+	width: 960px;
+	height: 404px;
+}
+
+#featuredContainer {
+	background-color: #4699D0;
+	height: 403px;
+	margin-top: 25px;
+}
+
+#contentWrapper {
+	width: 912px;
+	margin: 0 auto;
+}
+
+#productsMain {
+	width: 445px;
+	float: left;
+}
+
+#softwareMain {
+	width: 445px;	
+	float: right;
+}
+
+#productsBox {
+	background-image: url('images/blueproductsbg.png');
+	background-repeat: no-repeat;
+	width: 446px;
+	height: 367px;
+	padding: 30px 20px;
+}
+
+#softwareBox {
+	background-image: url('images/greensoftwarebg.png');
+	background-repeat: no-repeat;
+	width: 446px;
+	height: 367px;
+	padding: 30px 35px;
+}
+
+#softwareBox p {
+	padding: 0;
+	margin: 0;
+	font-family: arial, helvetica;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	width: 370px;	
+	padding-top: 15px;
+	line-height: 24px;
+}
+
+.softwareBoxIcon {
+	position: absolute;
+}
+
+h1.productsMainTitle {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 42px;
+	margin: 0;
+	padding: 0;
+	color: #0370C6;
+	padding-left: 27px;
+	padding-top: 30px;
+	padding-bottom: 22px;
+}
+
+h1.softwareMainTitle {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 42px;
+	margin: 0;
+	padding: 0;
+	color: #1FA50B;
+	padding-left: 27px;
+	padding-top: 30px;
+	padding-bottom: 22px;
+}
+
+h2.title {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 38px;
+	color: #0271CA;
+	margin: 0;
+	padding: 0;
+	padding-left: 30px;
+	padding-bottom: 22px;
+}
+
+h3.boxList {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 36px;
+	color: white;
+	padding: 0;
+	margin: 0;
+	display: inline;
+	position: relative;
+	padding-left: 70px;
+}
+
+h3.softlinxHeader {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 36px;
+	color: white;
+	padding: 0;
+	margin: 0;
+	display: inline;
+	position: relative;	
+	padding-left: 55px;
+}
+
+#productsBox ul li {
+	text-decoration: none;
+	display: block;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+#productsBox ul li img {
+	position: absolute;
+}
+
+.content {
+	background: white;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-box-shadow: 0px 0px 6px #a9a9a9;
+	-webkit-box-shadow: 0px 0px 6px #a9a9a9;
+	box-shadow: 0px 0px 6px #a9a9a9;
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+	zoom: 1;
+	padding: 30px;
+	padding-top: 25px;
+	width: 912px;
+	margin: 0 auto;
+}
+
+.content p {
+	font-family: arial, helvetica;
+	font-size: 14px;
+	color: black;
+	line-height: 25px;
+}
+
+/******* START DEFUALT SUBPAGE *******/
+#innerContent {
+	width: 588px;
+	display: inline-block;
+}
+
+#subNav {
+	width: 300px;
+	display: inline-block;
+	float: left;
+}
+
+#subNav li {
+	font-size: 20px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	padding-bottom: 10px;	
+}
+
+.current_page_item {
+	color: #545452;
+}
+
+.pageTitle {
+	margin: 0 auto;
+	width: 912px;
+	position: relative;
+	top: 80px;	
+}
+
+#tagLine {
+	font-size: 24px;
+	color: #545452;
+	font-weight: bold;
+	font-style: italic;
+	font-family: 'PT Sans',sans-serif;
+	margin-left: 45px;
+	padding-top: 10px;
+}
+
+#headerImage {
+	position: relative;
+	top: -170px;
+	left: 232px;
+	width: 429px;
+	height: 79px;
+	margin: 0 auto;
+}
+/****** FOOTER START ******/
+footer {
+	background: #0769b8;
+	width: 100%;
+	height: 380px;
+}
+
+#footerContent {
+	width: 910px;
+	font-family: arial, helvetica;
+	font-size: 14px;
+	color: white;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+#footerContent div p {
+	margin: 0;
+	padding: 0;
+}
+
+#footerContent #subscribeNews {
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: white;
+	font-size: 24pt;
+	margin-left: 78px;
+}
+
+.emailInput {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border: 0px none;
+	height: 25px;
+	width: 260px;
+	font-size: 16px;
+	color: #A0A0A0;
+	font-weight: bold;
+	font-family: arial, helvetica;	
+}
+
+#footerContent #divider {
+	background-color: #b6cde6;
+	width: 910px;
+	height: 1px;
+	margin-top: 45px;
+}
+
+#footerContent #footerLinks {
+	font-family: arial, helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+}
+
+#footerLinks {
+	margin: 0 auto;
+	width: 855px;
+}
+
+#footerLinks h4 {
+	padding: 0;
+	margin: 0;
+	padding-top: 30px;
+	padding-bottom: 5px;
+}
+
+#footerLinks ul {
+	text-decoration: none;
+	display: inline-table;
+	padding-right: 13px;
+}
+
+#footerLinks ul li {
+	text-decoration: none;
+	display: block;
+}
+
+
+/******* START CONTACT FORM *******/
+
+div.input input {
+	width: 370px;	
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border: 1px solid #9e9d9d;
+	height: 30px;
+	margin-bottom: 12px;
+	margin-right: 22px;
+}
+
+div.input label {
+	font-family: arial, helvetica;
+	font-size: 17px;
+	font-weight: bold;
+	color: black;
+	float: left;
+	width: 17%;
+}
+
+div.textBox input {
+	width: 694px;	
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border: 1px solid #9e9d9d;
+	height: 99px;
+}

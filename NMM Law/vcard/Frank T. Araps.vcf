@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Araps;Frank;T.;;Esq.
+FN: Frank T. Araps Esq.
+ORG:Norris McLaughlin & Marcus, P.A.
+TITLE:Partner
+TEL;WORK;VOICE:(908) 722-0700
+TEL;CELL;VOICE:(908) 252-4150
+TEL;WORK;FAX:(908) 722-0755
+ADR;WORK:;Norris McLaughlin & Marcus, P.A.;721 Route 202/206, Suite 200;P.O. Box 5933;Bridgewater;NJ;08807-5933
+EMAIL;INTERNET:ftaraps@nmmlaw.com
+END:VCARD

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tax Credits information from Meyer &amp; Depew</title>
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="initial-scale = 1, user-scalable = no">
+<link href="css/mobile.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="jquery-1.6.2.js"></script>
+<script type="text/javascript">
+//<![CDATA[ 
+	$(function () {
+		$('.inside_nav li .content').hide();
+				
+		$('.inside_nav li a').click(function(){
+			if ($(this).hasClass('hide')) {
+				$('.inside_nav li .content').hide();
+				$('.inside_nav li a').removeClass('show');
+				$('.inside_nav li a').addClass('hide');
+				$(this).removeClass('hide');
+				$(this).addClass('show');
+				$(this).next('.content').slideToggle('slow');
+			} else {
+				$(this).removeClass('show');
+				$(this).addClass('hide');
+				$(this).next('.content').slideToggle('slow');
+			}
+		});
+	});
+//]]>
+</script>
+
+</head>
+<body>
+<div class="cool_savings">
+	<a href="index.html" class="homebutton">&nbsp;</a>
+	<h1 class="phone"><!--<a href="tel:+1-908-272-2103">908-272-2103</a>-->
+    <a href="tel:+1-800-246-4342">800-246-4342</a></h1>
+    <br class="clearboth header_section" />
+    <h2 class="page_heading"></h2>
+    <ul class="inside_nav">
+    	<li><a href="#" class="hide"><span class="big">Up to $500</span><span class="small">on federal energy<br />tax credit</span></a>
+        <div class="content">
+        	<h2>We install ENERGY STAR&reg; equipment. Your and earn a federal energy tax credit of up to $500!</h2>
+            <p><strong>It's a smart way to get some easy home improvement financing!</strong></p>
+            <p>Did you know that a tax credit is now available for energy-efficient home improvements, including ENERGY STAR&reg; home heating and cooling equipment?</p>
+            <p>That's right: get a federal energy income tax credit of:</p>
+            <ul>
+                <li>Up to $50 for qualifying main air circulating fan</li>
+                <li>Up to $150 for qualifying heating system</li>
+                <li>Up to $300 for qualifying air conditioing system.</li>
+            </ul>
+            <br class="clearboth" />
+            <p>You'll save three ways with Meyer &amp; Depew: (1) our affordable pricing, (2) lower annual energy costs using ENERGY STAR equipment and (3) a federal energy tax rebate for helping us all improve the earth's environment.</p>
+            <p>Are you looking for some affordable ways to save on energy costs while helping to save our environment? Start with simple energy-saving home improvements that could bring you a home tax credit rebate on your federal income taxes, too.</p>
+        </div></li>
+    </ul>
+	<br class="clearboth" />
+</div>
+<div class="content">
+	<img src="images/sub_footer.jpg" />
+</div>
+<div class="subFooter">
+	<div class="red_footer_bar"><img src="images/carierr_logo_small.png" alt="Carrier Factory Authorized Dealer" /><p>Factory Authorized Dealer. NJ Reg. No. 13VHO1053500</p></div>
+	<div class="copyright">2012 Meyer &amp; Depew Inc. All Right Reserved</div>
+       <!-- <img src="images/carierr_logo.png" alt="Carrier Factory Authorized Dealer" align="left" />
+    <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FMeyer-Depew-Heating-Cooling%2F139584359435635&amp;layout=box_count&amp;show_faces=false&amp;width=50&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=65" scrolling="no" frameborder="0" style="border:none; display: block; float: left; overflow:hidden; width:50px; height:65px;" allowTransparency="true"></iframe>
+    <span id="twtab"><a href="http://twitter.com/meyeranddepew" target="_blank"></a></span>
+    <span id="rsstab"><a href="http://www.meyer-depew.com/blog" target="_blank"></a></span>-->
+
+</div>
+</body>
+</html>

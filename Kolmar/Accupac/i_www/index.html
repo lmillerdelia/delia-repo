@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Acupac</title>
+		<link href='http://fonts.googleapis.com/css?family=Ruluko' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/960_16_col.css" type="text/css" />
+		<link rel="stylesheet" href="css/reset.css" type="text/css" />
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+		<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+		<script src="http://bxslider.com/sites/default/files/jquery.bxSlider.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		  $(document).ready(function(){
+		    var slider = $('.slideshow #slider1').bxSlider({
+		    	controls: false,
+		    	auto: true
+		    });
+		  $('#go-prev').click(function(){
+		      slider.goToPreviousSlide();
+		      return false;
+		    });
+		  
+		    $('#go-next').click(function(){
+		      slider.goToNextSlide();
+		      return false;
+		    });
+		  
+		  });
+		  
+		</script>
+</head>
+
+<body>
+	<div class="container_16"> <!--START MAIN CONTINAINER-->
+		<div class="grid_16 mainHead"> <!--START MAIN HEAD-->
+			<div class="grid_4 omega"> <!--START LOGO CONTAINER-->
+				<img src="images/acupaclogo.jpg" alt="Accupac Packing Inc." />
+			</div> <!--END LOGO CONTAINER-->
+			<div class="push_4 grid_8"> <!--START TAGLINE CONTAINER-->
+				<p class="tagline">THE POWER TO SEE THE DREAM. THE SCIENCE TO MAKE IT HAPPEN.</p>
+			</div> <!--END TAGLINE CONTAINER-->
+			<div class="grid_16 mainNav alpha omega"> <!--START MAIN NAV-->
+				<nav>
+					<ul>
+						<li class="active"><a href="#">HOME</a></li>
+						<li><a href="#">MARKET EXPERTISE</a></li>
+						<li><a href="#">PRODUCT FORMATS</a></li>
+						<li><a href="#">SERVICES</a></li>
+						<li><a href="#">ABOUT ACUPAC</a></li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+				</nav>
+			</div> <!--END MAIN NAV-->
+		</div> <!--END MAIN HEAD-->
+		<div class="grid_16 slideshow"> <!--START SLIDESHOW-->
+			<div id="go-prev" class="slideshownav"><img src="images/previousarrow.png" alt="Prev" /></div>
+			<div id="go-next" class="slideshownav"><img src="images/nextarrow.png" alt="Next" /></div>
+			<ul id="slider1">
+				<li><img src="images/slideshowph.png" alt="" /></li>
+				<li><img src="images/slideshowph2.png" alt="" /></li>
+				<li><img src="images/slideshowph3.png" alt="" /></li>				
+			</ul>
+		</div> <!--END SLIDESHOW-->
+		<div class="grid_16 contentWrapper"> <!--START MAIN CONTENT-->
+			<div class="push_4 grid_10 content">
+				<h1>Welcome to Acupac Packagin, inc.</h1>
+				<h3>A division of Kolmar Labs Group</h3>
+				<p>Acupac is a full service contract manufacturer of dissolvable films, Gels, packettes, 
+				thermoforms, dosed non-wovens and dry-coated non-wovens. Our services include bulk 
+				formulation, product design/development, distribution and sampling. 
+				</p>
+				<p>
+				We engineer and build equipment to meet product design requirements, and offer 
+				on-site testing capabilities.</p>
+			</div>
+		</div> <!--END MAIN CONTENT-->
+		<div class="grid_16 footerWrapper"> <!--START FOOTER-->
+		<footer>
+			<div class="grid_14 push_1 alpha omega horizontalLine">&nbsp;</div>
+			<div class="grid_3 push_1 footerBlocks">
+				<p class="footerTitle">Contact Us</p>
+				<p>
+				Acupac Packaging, Inc.
+				Kolmar Labs Group
+				55 Ramapo Valley Road
+				Mahwah, NJ 07430
+				Telephone: 201 529 3434
+				Fax: 201 529 1319
+				</p>
+				<div class="button" style="width: 85px;"><a href="#">Contact Us</a></div>
+			</div>
+			<div class="grid_4 push_2 footerBlocks">
+				<p class="footerTitle">Markets</p>
+				<ul>
+					<li>Dissolvable Films</li>
+					<li>Unit Dose Packets</li>
+					<li>Dry coated non-wovens</li>
+				</ul>
+				<div class="button" style="width: 85px;"><a href="#">Learn More</a></div>
+				</div>
+			<div class="grid_4 push_2 footerBlocks">
+				<p class="footerTitle">Services</p>
+				<ul>
+					<li>Research &amp; Development</li>
+					<li>Custom Formulations</li>
+					<li>Contract Manufacturing</li>
+				</ul>
+				<div class="button" style="width: 85px;"><a href="#">Learn More</a></div>
+			</div>
+			<div class="grid_3 push_1 alpha omega" style="text-align: right;">
+				<img src="images/kolmarlogo.png" alt="Kolmar Labs Group" />
+			</div>
+			</footer>
+		</div> <!--END FOOTER-->
+	</div> <!--END MAIN CONTAINER-->
+</body>
+</html>

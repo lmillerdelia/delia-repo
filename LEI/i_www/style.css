@@ -1,0 +1,157 @@
+body {
+	padding-top: 10px;
+	font-family: Arial, Helvetica;
+	color: #464646;
+}
+
+/******* MAIN TAG STYLES *******/
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #208290;
+}
+/******* HEADINGS *******/
+h1 {
+	color: #208290;
+	font-size: 27px;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 15px;
+}
+
+/******* HEADER *******/
+
+nav ul li {
+	display: inline;
+}
+
+.headerNav nav {
+	font-size: 12px;
+	text-align: right;
+}
+
+.headerNav nav ul li a:link {
+	color: #3e4e5a;
+}
+
+.headerNav nav ul li a:hover {
+	color: #208290;
+}
+
+.mainNav {
+	font-size: 17px;
+	color: #252525;
+	font-weight: 700;
+	padding-top: 40px;
+	padding-bottom: 18px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+	.mainNav nav ul li {
+		padding-right: 20px;
+	}
+	
+	.mainNav nav ul li:last-child {
+		padding-right: 0px;
+	}
+	
+	.mainNav nav ul li a:link{
+		color: #252525;
+	}
+	.mainNav nav ul li a:hover{
+		color: #208290;
+	}
+
+/******* SLIDE SHOW *******/
+.slideShow {
+	height: 266px;
+	background-image: url('images/slideshowPH.jpg');
+	padding-top: 55px;
+	margin-bottom: 35px;
+}
+
+.slideShowTitle {
+	margin-bottom: 30px;
+}
+	.slideShow .slideShowTitle h1 {
+		font-size: 43px;
+		color: #fff;
+		font-family: Tahoma, Geneva, sans-serif;
+		margin-bottom: 0px;
+		font-weight: 400;
+	}
+.slideShowText {
+	color: #fff;
+	font-size: 11px;
+	font-weight: 700;
+	line-height: 17px;
+}
+	.slideShowText p {
+		width: 186px;
+		margin-bottom: 20px;
+	}
+/******* BUTTONS *******/
+.learnMoreButton {
+	background-image: url('images/learnmorebuttonbg.png');
+	color: #fff;
+	font-weight: 700;
+	font-size: 15px;
+	height: 47px;
+	width: 123px;
+	text-align: center;
+}
+	.learnMoreButton a:link {
+		display: block;
+		color: #fff;
+		height: 32px;
+		padding-top: 15px;
+	}
+
+/******* MAIN CONTENT *******/
+.mainContentWrapper {
+	
+}
+	.mainContentWrapper p {
+		margin-bottom: 10px;
+		margin-top: 10px;
+		
+			line-height: 18px;
+	}
+	.mainContent {
+		font-size: 12px;
+	}
+		.mainContent p {
+			padding-right: 35px;
+		}
+		.mainContent p a:link {
+			color: #208290;
+		}
+	.rightContent {
+		color: #1a9690;
+		font-size: 12px;
+	}
+		.rightContent p {
+			margin-top: 20px;
+		}
+/******* FOOTER *******/
+footer {
+	color: #000;
+	font-size: 12px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+	.footerLinks {
+		text-align: right;
+	}
+	.footerLinks ul li {
+		display: inline;
+	}
+	.footerLinks a:link {
+		color: #000;
+	}
+	.footerLinks a:hover {
+		color: #208290;
+	}
